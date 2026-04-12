@@ -1,0 +1,13 @@
+CSV_V2.csv
+CSV_V2.numbers
+bigfour_raw.csv
+bigfour_clean.csv
+capgemini/
+deloitte/
+ey/
+kpmg/
+pwc/
+__pycache__/
+*.pyc
+.DS_Store
+*.png
