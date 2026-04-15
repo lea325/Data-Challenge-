@@ -227,7 +227,7 @@ def hex_rgba(h, a=0.12):
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(os.path.join(BASE_DIR, "bigfour_clean.csv"), encoding="utf-8-sig")
+    df = pd.read_csv(os.path.join(BASE_DIR, "bigfour_clean.csv.gz"), encoding="utf-8-sig", compression="gzip")
     df["date_parsed"] = pd.to_datetime(df["date_parsed"], errors="coerce")
     df["year"]        = pd.to_numeric(df["year"], errors="coerce")
     df["is_current"]  = df["is_current"].astype(bool)
