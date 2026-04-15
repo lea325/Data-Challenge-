@@ -1,6 +1,6 @@
 # Data Challenge — Attractivité Employeur Big Five
 
-**Master IMC & D5 · Paris I Panthéon-Sorbonne · Avril 2026**
+**Master IMC&DS · Paris I Panthéon-Sorbonne · Avril 2026**
 
 Profil : Investisseur RH · 286 498 avis Glassdoor · 2008–2024
 
